@@ -1,0 +1,27 @@
+/* Стили для таблицы и элементов расписания */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:disabled {
+    background-color: #cccccc;
+}
